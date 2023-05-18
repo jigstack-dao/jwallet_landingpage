@@ -1,0 +1,49 @@
+.configSlider {
+  margin-bottom: 20px;
+  .slick-track {
+    display: flex;
+  }
+
+  .slick-active {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    z-index: 99;
+  }
+
+  .slick-active img {
+    object-fit: cover;
+  }
+}
+
+#three-dot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  .item {
+    width: 6px;
+    height: 6px;
+    background-color: #d3d3fa;
+    margin-right: 6px;
+    border-radius: 50%;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .active {
+    background: linear-gradient(156.27deg, #5957d5 0%, #9257d5 100.75%), #8157d5;
+  }
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  .item {
+    margin-left: -40px;
+    cursor: pointer;
+    &:first-child {
+      margin: 0;
+    }
+  }
+  margin-bottom: 200px;
+}

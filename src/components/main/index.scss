@@ -1,0 +1,111 @@
+.main-container {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(239, 239, 250, 0) -17.01%,
+    rgba(239, 239, 250, 0.53) 2.94%,
+    #efeffa 46.82%,
+    rgba(239, 239, 250, 0.43) 100.44%,
+    rgba(239, 239, 250, 0) 122.26%
+  );
+  .main-typography {
+    padding: 80px 24px 0px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    .question {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color: #2d2d5f;
+      margin-bottom: 40px;
+    }
+    .text {
+      max-width: 982px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 150%;
+      text-align: center;
+      color: #82829d;
+    }
+  }
+  .social-networks {
+    padding: 0 30px;
+    padding-bottom: 62px;
+    display: flex;
+    justify-content: center;
+
+    ul {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto;
+      gap: auto;
+      width: 320px;
+      li {
+        text-align: center;
+        opacity: 0.5;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .integration {
+    min-height: 300px;
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    &-header {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color: #2d2d5f;
+      margin-bottom: 40px;
+    }
+    &s {
+      display: flex;
+      align-items: center;
+      margin-top: 3rem;
+    }
+    &-icon {
+      margin: 0 1rem;
+      width: 4rem;
+      height: auto;
+
+      > img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .main-container {
+    .main-typography {
+      padding: 144px 24px 0px 24px;
+      margin-bottom: 50px;
+      .question {
+        font-size: 48px;
+      }
+      .text {
+        font-size: 20px;
+        line-height: 150%;
+      }
+    }
+    .integration {
+      min-height: 400px;
+      &-header {
+        font-size: 48px;
+      }
+    }
+  }
+}

@@ -38,7 +38,7 @@ const ButtonBrowserGroup: React.FC<{ isDesktop: boolean }> = ({ isDesktop }) => 
           <div className='link-gg'>
             <ButtonBrowser
               text='Download for Chrome'
-              to={links[0]}
+              to={"https://chrome.google.com/webstore/search/jwallet?hl=en-GB&authuser=0"}
               icon={<ChromeIcon width={62} height={62} />}
             />
           </div>
@@ -46,7 +46,7 @@ const ButtonBrowserGroup: React.FC<{ isDesktop: boolean }> = ({ isDesktop }) => 
             <ButtonBrowser text='Dowload for Brave' to={"https://chrome.google.com/webstore/search/jwallet?hl=en-GB&authuser=0"} icon={<BraveIcon />} />
           </div>
           <div>
-            <ButtonBrowser text='Coming…' to={"https://chrome.google.com/webstore/search/jwallet?hl=en-GB&authuser=0"} disabled={true} icon={<FireFoxIcon />} />
+            <ButtonBrowser text='Coming…' to={""} disabled={true} icon={<FireFoxIcon />} />
           </div>
         </div>
         <div className='multi-dot-left'>

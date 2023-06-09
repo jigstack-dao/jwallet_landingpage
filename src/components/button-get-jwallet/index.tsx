@@ -20,7 +20,7 @@ export default function ButtonGetJwallet() {
         <span className='icon'>
           <ChromeIcon />
         </span>
-        <span className='text'>Join Chrome Betatest</span>
+        <span className='text'>Download for Chrome</span>
       </a>
     </button>
   );

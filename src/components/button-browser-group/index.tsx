@@ -37,13 +37,13 @@ const ButtonBrowserGroup: React.FC<{ isDesktop: boolean }> = ({ isDesktop }) => 
         <div className='btns'>
           <div className='link-gg'>
             <ButtonBrowser
-              text='Join Chrome Betatest'
+              text='Download for Chrome'
               to={links[0]}
               icon={<ChromeIcon width={62} height={62} />}
             />
           </div>
           <div>
-            <ButtonBrowser text='Join Brave Betatest' to={links[1]} icon={<BraveIcon />} />
+            <ButtonBrowser text='Dowload for Brave' to={links[1]} icon={<BraveIcon />} />
           </div>
           <div>
             <ButtonBrowser text='Coming…' to={links[2]} disabled={true} icon={<FireFoxIcon />} />

@@ -16,7 +16,7 @@ export default function ButtonGetJwallet() {
 
   return (
     <button className='btn-get-jwallet'>
-      <a href={link}>
+      <a href={"https://chrome.google.com/webstore/search/jwallet?hl=en-GB&authuser=0"}>
         <span className='icon'>
           <ChromeIcon />
         </span>

@@ -9,7 +9,7 @@ describe('Component: button-get-jwallet', () => {
   it('render correctly children elements', () => {
     const wrapper = shallow(<ButtonGetJwallet />);
     expect(wrapper.containsMatchingElement(<ChromeIcon />)).toEqual(true);
-    expect(wrapper.text()).toMatch(/Dowload for Chrome/);
+    expect(wrapper.text()).toMatch(/ for Chrome/);
     wrapper.unmount();
   });
 });

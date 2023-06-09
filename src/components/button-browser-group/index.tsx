@@ -43,10 +43,10 @@ const ButtonBrowserGroup: React.FC<{ isDesktop: boolean }> = ({ isDesktop }) => 
             />
           </div>
           <div>
-            <ButtonBrowser text='Dowload for Brave' to={links[1]} icon={<BraveIcon />} />
+            <ButtonBrowser text='Dowload for Brave' to={"https://chrome.google.com/webstore/search/jwallet?hl=en-GB&authuser=0"} icon={<BraveIcon />} />
           </div>
           <div>
-            <ButtonBrowser text='Coming…' to={links[2]} disabled={true} icon={<FireFoxIcon />} />
+            <ButtonBrowser text='Coming…' to={"https://chrome.google.com/webstore/search/jwallet?hl=en-GB&authuser=0"} disabled={true} icon={<FireFoxIcon />} />
           </div>
         </div>
         <div className='multi-dot-left'>
